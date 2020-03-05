@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-Us">
+<head>
+	<meta charset="UTF-8">
+  	<link rel="stylesheet" href="./style.css">
+    
+	<title>Register</title>
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300'>
+    <script src="C:\Users\842130\Downloads\UI\registerScript.js"></script>
+</head>
+
+<body id="regBody">
+	<h1><strong>CITY CLASSIFIED AND SEARCH</strong></h1><br>
+
+	<div id="mainBody">
+
+		
+		<h2>New User? <strong>Register here.</strong></h2><br>
+
+		<form onsubmit="return validate()" method="get">
+
+			<fieldset>
+
+			<table>
+				<tr><p><td>Employee ID: </td><td><input type="text" id="employeeId" placeholder="enter employee id"></p> </td> <td><p id="errorEmpid"></p></td></tr>
+                                               
+				<tr><p><td>First Name: </td><td><input type="text" id="firstName"  placeholder="enter first name"></p> </td>  <td><p id="errorfirstName"></p></td></tr>
+				                             
+				<tr><p><td>Last Name: </td><td><input type="text" id="lastName" placeholder="enter last name"></p> </td> <td><p id="errorlastName"></p></td></tr>
+                                              
+				<tr><p><td>E-Mail: </td><td><input type="email" id="email" placeholder="enter your mail id"></p> </td><td><p id="erroremail"></p></td></tr>
+				                               
+				<tr><p><td>Password: </td><td><input type="password" id="password"placeholder="enter your password"></p> </td><td><p id="errorpassword"></p></td></tr>
+				                                
+				<tr><p><td>Secret Q1: </td><td><input type="password" id="Q1" placeholder="answer for Q1"></p> </td> <td><p id="q1"></p></td></tr>
+				                             
+				<tr><p><td>Secret Q2: </td><td><input type="password" id="Q2" placeholder="answer for Q2"></p> </td><td><p id="q2"></p></td></tr>
+				                              
+				<tr><p><td>Secret Q3: </td><td><input type="password" id="Q3" placeholder="answer for Q3"></p> </td><td><p id="q3"></p></td></tr>
+				
+			</table>
+
+				<br><p><input type="checkbox"></td><td>Check this for requesting Admin Role</p>
+			
+			<br><p><input type="submit" value="Register"></p>
+			
+			</fieldset>
+
+		</form>
+
+	</div>
+	
+
+</body>
+</html>
