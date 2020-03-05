@@ -1,0 +1,220 @@
+@charset "utf-8";
+
+/* ---------- FONTAWESOME ---------- */
+/* ---------- https://fortawesome.github.com/Font-Awesome/ ---------- */
+/* ---------- http://weloveiconfonts.com/ ---------- */
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+@import url(https://meyerweb.com/eric/tools/css/reset/reset.css);
+
+/* ---------- FONTAWESOME ---------- */
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+/* ---------- GENERAL ---------- */
+
+body {
+	background: #f4f4f4;
+	color: #5a5656;
+	font: 100%/1.5em 'Open Sans', sans-serif;
+	align-content: center;
+}
+
+#dash {
+	margin-top: 2%;
+}
+
+#loginBody {
+	margin-top: 8%;
+}
+
+#regBody {
+	margin-top: 5%;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 { font-size: 3.125em; 
+	text-align: center;
+	}
+h2 { font-size: 1.25em;}
+
+h1, p {
+	margin-bottom: 0.625em;
+}
+
+strong {
+	font-weight: bold;
+}
+
+#title {
+	font-size: 2.375em;
+	margin: 5%;
+}
+
+.uppercase { text-transform: uppercase; }
+
+.navbar {
+	overflow: hidden;
+	background-color: #5a5656;
+	top: 0;
+	width: 100%;
+  }
+  
+  .navbar a {
+	margin-left: 0.5%;
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .navbar a:hover {
+	background: #008dde;
+	color: black;
+  }
+
+  .navbar #logout {
+	  float: right;
+	  margin-right: 0.5%;
+  }
+  
+  @media (max-width: 750px) {
+	  .navbar {
+		  flex-direction: column;
+	  }
+  }
+
+/* ---------- LOGIN ---------- */
+
+#mainBody {
+	margin: 3.125em auto;
+	width: 28.125em;
+}
+
+#dashBody {
+	margin: 3.125em auto;
+	width: 50%;
+}
+
+form.example input[type=text] {
+	padding: 0.625em;
+	font-size: 1.0625em;
+	border: 0.0625em solid grey;
+	float: left;
+	width: 80%;
+	background: #f1f1f1;
+  }
+  
+  form.example button {
+	float: left;
+	width: 20%;
+	padding: 0.625em;
+	background: #2196F3;
+	color: white;
+	font-size: 1.0625em;
+	border: 0.0625em solid grey;
+	border-left: none;
+	cursor: pointer;
+  }
+  
+  form.example button:hover {
+	background: #0b7dda;
+  }
+  
+  form.example::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+
+form fieldset input[type="text"], input[type="password"], input[type="email"], #dashBody input[type="text"]  {
+	background: #e5e5e5;
+	border: none;
+	border-radius: 3px;
+	color: #5a5656;
+	font-family: inherit;
+	margin-left: 10px;
+	font-size: 14px;
+	height: 50px;
+	outline: none;
+	padding: 0px 10px;
+	width: 280px;
+  -webkit-appearance:none;
+}
+
+form fieldset textarea {
+	background: #e5e5e5;
+	border: none;
+	border-radius: 3px;
+	color: #5a5656;
+	font-family: inherit;
+	margin-left: 10px;
+	font-size: 14px;
+	height: 250px;
+	outline: none;
+	padding: 0px 10px;
+	width: 500px;
+  -webkit-appearance:none;
+}
+
+form fieldset input[type="submit"], input[type="button"] {
+	background-color: #008dde;
+	border: none;
+	border-radius: 3px;
+	color: #f4f4f4;
+	cursor: pointer;
+	font-family: inherit;
+	height: 50px;
+	text-transform: uppercase;
+	width: 400px;
+  -webkit-appearance:none;
+}
+
+form fieldset a {
+	color: #008dde;
+	font-size: 14px;
+	
+}
+
+form fieldset #aAlign {
+	margin-right: 165px;
+}
+
+form fieldset a:hover { text-decoration: underline; }
+
+.register {
+	background-color: #008dde;
+	border: none;
+	border-radius: 3px;
+	color: #f4f4f4;
+	cursor: pointer;
+	font-family: inherit;
+	height: 50px;
+	text-transform: uppercase;
+	width: 400px;
+  -webkit-appearance:none;
+}
+
+.btn-round {
+	background: #5a5656;
+	border-radius: 50%;
+	color: #f4f4f4;
+	display: block;
+	font-size: 12px;
+	height: 50px;
+	line-height: 50px;
+	margin: 30px 175px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 50px;
+}
