@@ -6,15 +6,15 @@ function validate(){
 	
 		if(name==""||!(name.match(regexForName))||name.length!=6){
             document.getElementById("usererror").innerHTML="Enter Valid User Id";
-            return false;
+        
 		}else{
             document.getElementById("usererror").innerHTML="";
         }
 		if(!password.match(regexForPassword)){
             document.getElementById("passworderror").innerHTML="Enter Valid Password";
-            return false;
+            
 		}else{
             document.getElementById("passworderror").innerHTML="";
         }
-		return true;
+		return false;
 	}
