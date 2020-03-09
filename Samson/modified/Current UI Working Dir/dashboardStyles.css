@@ -1,0 +1,283 @@
+@charset "utf-8";
+
+/* ---------- FONTAWESOME ---------- */
+/* ---------- https://fortawesome.github.com/Font-Awesome/ ---------- */
+/* ---------- http://weloveiconfonts.com/ ---------- */
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+@import url(https://meyerweb.com/eric/tools/css/reset/reset.css);
+
+/* ---------- FONTAWESOME ---------- */
+[class*="fontawesome-"]:before {
+	font-family: 'FontAwesome', sans-serif;
+}
+
+/* ---------- GENERAL ---------- */
+body {
+	background: #f4f4f4;
+	color: #5a5656;
+	font: 100%/1.5em 'Open Sans', sans-serif;
+	align-content: center;
+}
+
+.required:after {
+    content:" * ";
+    color: red;
+  }
+
+.requestContent {
+	font: 100%/1.5em 'Open Sans', sans-serif;
+	align-content: center;
+	font-size: 20px;
+}
+
+#dash {
+	margin-top: 2%;
+}
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+}
+
+#userRole {
+	float: left;
+	padding-left: 10px;
+}
+
+#userSession {
+	font-size: 24px;
+	float: right;
+	padding-right: 10px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h1, p {
+	margin-bottom: 10px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+#mainBody {
+	margin: 50px auto;
+	width: 450px;
+}
+
+#title {
+	font-size: 38px;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+#headerTable {
+	width: 100%;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: #5a5656;
+	top: 0;
+	width: 100%;
+}
+
+.navbar a {
+	margin-left: 0.5%;
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.navbar a:hover {
+	background: #008dde;
+	color: black;
+}
+
+.navbar #logout {
+	float: right;
+	margin-right: 0.5%;
+}
+
+#dash {
+	margin-top: 2%;
+}
+
+#dashBody {
+	margin: 50px auto;
+	width: 50%;
+}
+
+#contentCenter {
+	text-align: right;
+}
+
+#selectedNav {
+	background-color: #2196F3;
+}
+
+#mainBody {
+	align-content: center;
+}
+
+form {
+	width: 900px;
+}
+
+form.example input[type=text] {
+	padding: 10px;
+	font-size: 17px;
+	border: 1px solid grey;
+	float: left;
+	width: 80%;
+	background: #f1f1f1;
+}
+
+form.example button {
+	float: left;
+	width: 20%;
+	padding: 10px;
+	background: #2196F3;
+	color: white;
+	font-size: 17px;
+	border: 1px solid grey;
+	border-left: none;
+	cursor: pointer;
+}
+
+form.example button:hover {
+	background: #0b7dda;
+}
+
+form.example::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+
+form fieldset {
+	width: 800px;
+	text-align: center;
+}
+
+form fieldset input[type="text"], input[type="password"], input[type="email"],
+	#dashBody input[type="text"] {
+	background: #e5e5e5;
+	border: none;
+	border-radius: 3px;
+	color: #5a5656;
+	font-family: inherit;
+	margin-left: 10px;
+	font-size: 14px;
+	height: 50px;
+	outline: none;
+	padding: 0px 10px;
+	width: 500px;
+	-webkit-appearance: none;
+}
+
+form fieldset textarea {
+	background: #e5e5e5;
+	border: none;
+	border-radius: 3px;
+	color: #5a5656;
+	font-family: inherit;
+	margin-left: 10px;
+	font-size: 14px;
+	height: 250px;
+	outline: none;
+	padding: 0px 10px;
+	width: 500px;
+	-webkit-appearance: none;
+}
+
+form fieldset input[type="submit"], input[type="button"] {
+	background-color: #008dde;
+	border: none;
+	border-radius: 3px;
+	color: #f4f4f4;
+	cursor: pointer;
+	font-family: inherit;
+	height: 50px;
+	text-transform: uppercase;
+	width: 400px;
+	-webkit-appearance: none;
+}
+
+td {
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#titlebar {
+	width: 7%;
+}
+
+form fieldset a {
+	color: #008dde;
+	font-size: 14px;
+}
+
+form fieldset #aAlign {
+	margin-right: 165px;
+}
+
+form fieldset a:hover {
+	text-decoration: underline;
+}
+
+div.stars {
+  width: 270px;
+  display: inline-block;
+}
+
+input.star { display: none; }
+
+label.star {
+  float: right;
+  padding: 10px;
+  font-size: 36px;
+  color: #444;
+  transition: all .2s;
+}
+
+input.star:checked ~ label.star:before {
+  content: '\f005';
+  color: #FD4;
+  transition: all .25s;
+}
+
+input.star-5:checked ~ label.star:before {
+  color: #FE7;
+  text-shadow: 0 0 20px #952;
+}
+
+input.star-1:checked ~ label.star:before { color: #F62; }
+
+label.star:hover { transform: rotate(-15deg) scale(1.3); }
+
+label.star:before {
+  content: '\f006';
+  font-family: FontAwesome;
+}
+
+footer {
+    position: absolute;
+ 	bottom: 0;
+ 	width: 100%;
+    text-align: center;
+}
