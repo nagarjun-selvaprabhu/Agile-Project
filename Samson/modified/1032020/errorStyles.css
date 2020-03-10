@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/* ---------- FONTAWESOME ---------- */
+/* ---------- https://fortawesome.github.com/Font-Awesome/ ---------- */
+/* ---------- http://weloveiconfonts.com/ ---------- */
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+@import url(https://meyerweb.com/eric/tools/css/reset/reset.css);
+
+/* ---------- FONTAWESOME ---------- */
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+/* ---------- GENERAL ---------- */
+
+body {
+	background: #f4f4f4;
+	color: #5a5656;
+	font: 100%/1.5em 'Open Sans', sans-serif;
+	align-content: center;
+}
+
+#errorBody {
+	align-content: center;
+}
+
+#mainBody {
+	padding-top: 7%;
+	margin: 3.125em auto;
+	width: 80.125em;
+}
+
+strong {
+	font-weight: bold;
+}
+
+#errorimg {
+	float: left;
+}
+
+#errortitle {
+	float: center;
+	font-size: 45px;
+	padding-top: 9%;
+}
+
+#errorsubtitle {
+	font-size: 45px;
+	padding-top: 3%;
+}
+
+#errorcontent {
+	font-size: 30px;
+	padding-top: 1%;
+}
+
+#errorsubcontent {
+	font-size: 25px;
+	padding-top: 1%;
+}
